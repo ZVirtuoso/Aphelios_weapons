@@ -187,21 +187,21 @@ class Aphelios():
             print("清辉夜凝攻击了敌人，并恢复了你的生命值！")
 
 
-cyy = Aphelios()
+zjx = Aphelios()
 while True:
     get_order = input("请输入操作(a/w/q/r)")
     if get_order == "a":
-        cyy.attack()
+        zjx.attack()
     elif get_order == "w":
-        cyy.switch()
+        zjx.switch()
     elif get_order == "q":
-        cyy.q_skill()
+        zjx.q_skill()
     elif get_order == "b":
         if input("你掉线了！输入'quit'结束") == 'quit':
             break
         else:
             print("你已重新连接")
     elif get_order == "r":
-        cyy.r_skil()
+        zjx.r_skil()
     elif get_order == "c":
-        cyy.check()
+        zjx.check()
